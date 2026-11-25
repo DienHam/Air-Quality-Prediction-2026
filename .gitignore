@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Local crawl artifacts and secrets (exported JSON lives in public/data)
+data/raw/
+.env
+.envrc
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
