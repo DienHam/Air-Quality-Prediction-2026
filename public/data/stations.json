@@ -1,0 +1,57 @@
+{
+  "source": "openaq+era5+cams crawl",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "asOf": "2026-10-24T22:00:00+07:00",
+  "historyHours": 720,
+  "defaultStationId": 6123215,
+  "stations": [
+    {
+      "id": 2161306,
+      "name": "Minh Khai",
+      "lat": 21.05,
+      "lng": 105.74,
+      "in_train": false,
+      "pm25_coverage": 0.1755
+    },
+    {
+      "id": 2161292,
+      "name": "Luu Quang Vu",
+      "lat": 21.0152,
+      "lng": 105.7999,
+      "in_train": false,
+      "pm25_coverage": 0.3874
+    },
+    {
+      "id": 4946811,
+      "name": "Nguyen Van Cu",
+      "lat": 21.0491,
+      "lng": 105.8831,
+      "in_train": false,
+      "pm25_coverage": 0.5991
+    },
+    {
+      "id": 6123215,
+      "name": "OceanPark",
+      "lat": 20.9933,
+      "lng": 105.9441,
+      "in_train": true,
+      "pm25_coverage": 0.9353
+    },
+    {
+      "id": 4946813,
+      "name": "DHBK",
+      "lat": 21.0052,
+      "lng": 105.8418,
+      "in_train": true,
+      "pm25_coverage": 0.9274
+    },
+    {
+      "id": 4946812,
+      "name": "Nhan Chinh",
+      "lat": 21.0031,
+      "lng": 105.79470000000002,
+      "in_train": true,
+      "pm25_coverage": 0.9498
+    }
+  ]
+}

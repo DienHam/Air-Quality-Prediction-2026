@@ -1,0 +1,164 @@
+{
+  "source": "data/interim/hourly_train_six.parquet",
+  "method": "time_ordered_unique_hours",
+  "ratios": {
+    "train": 0.7,
+    "valid": 0.15,
+    "test": 0.15
+  },
+  "unique_hours_total": 10104,
+  "unique_hours_by_split": {
+    "train": 7072,
+    "valid": 1515,
+    "test": 1517
+  },
+  "cut_points": {
+    "train_end": "2026-07-22 15:00:00+07:00",
+    "valid_end": "2026-09-23 18:00:00+07:00",
+    "test_start": "2026-09-23 19:00:00+07:00",
+    "test_end": "2026-11-25 23:00:00+07:00"
+  },
+  "outputs": {
+    "combined": "data/interim/hourly_train_six_split.parquet",
+    "train": "data/interim/splits/train.parquet",
+    "valid": "data/interim/splits/valid.parquet",
+    "test": "data/interim/splits/test.parquet"
+  },
+  "splits": {
+    "train": {
+      "rows": 42432,
+      "stations": 6,
+      "unique_hours": 7072,
+      "hour_start": "2025-10-01 00:00:00+07:00",
+      "hour_end": "2026-07-22 15:00:00+07:00",
+      "model_v1_ok": 42288,
+      "pm25_source": {
+        "openaq": 29707,
+        "openweather": 12404,
+        "cams_openmeteo": 321
+      },
+      "rows_by_station": [
+        {
+          "location_id": 2161292,
+          "station_name": "Luu Quang Vu",
+          "rows": 7072
+        },
+        {
+          "location_id": 2161306,
+          "station_name": "Minh Khai",
+          "rows": 7072
+        },
+        {
+          "location_id": 4946811,
+          "station_name": "Nguyen Van Cu",
+          "rows": 7072
+        },
+        {
+          "location_id": 4946812,
+          "station_name": "Nhan Chinh",
+          "rows": 7072
+        },
+        {
+          "location_id": 4946813,
+          "station_name": "DHBK",
+          "rows": 7072
+        },
+        {
+          "location_id": 6123215,
+          "station_name": "OceanPark",
+          "rows": 7072
+        }
+      ]
+    },
+    "valid": {
+      "rows": 9090,
+      "stations": 6,
+      "unique_hours": 1515,
+      "hour_start": "2026-07-22 16:00:00+07:00",
+      "hour_end": "2026-09-23 18:00:00+07:00",
+      "model_v1_ok": 9090,
+      "pm25_source": {
+        "openaq": 4979,
+        "openweather": 3867,
+        "cams_openmeteo": 244
+      },
+      "rows_by_station": [
+        {
+          "location_id": 2161292,
+          "station_name": "Luu Quang Vu",
+          "rows": 1515
+        },
+        {
+          "location_id": 2161306,
+          "station_name": "Minh Khai",
+          "rows": 1515
+        },
+        {
+          "location_id": 4946811,
+          "station_name": "Nguyen Van Cu",
+          "rows": 1515
+        },
+        {
+          "location_id": 4946812,
+          "station_name": "Nhan Chinh",
+          "rows": 1515
+        },
+        {
+          "location_id": 4946813,
+          "station_name": "DHBK",
+          "rows": 1515
+        },
+        {
+          "location_id": 6123215,
+          "station_name": "OceanPark",
+          "rows": 1515
+        }
+      ]
+    },
+    "test": {
+      "rows": 9102,
+      "stations": 6,
+      "unique_hours": 1517,
+      "hour_start": "2026-09-23 19:00:00+07:00",
+      "hour_end": "2026-11-25 23:00:00+07:00",
+      "model_v1_ok": 9096,
+      "pm25_source": {
+        "openaq": 4515,
+        "openweather": 4510,
+        "cams_openmeteo": 77
+      },
+      "rows_by_station": [
+        {
+          "location_id": 2161292,
+          "station_name": "Luu Quang Vu",
+          "rows": 1517
+        },
+        {
+          "location_id": 2161306,
+          "station_name": "Minh Khai",
+          "rows": 1517
+        },
+        {
+          "location_id": 4946811,
+          "station_name": "Nguyen Van Cu",
+          "rows": 1517
+        },
+        {
+          "location_id": 4946812,
+          "station_name": "Nhan Chinh",
+          "rows": 1517
+        },
+        {
+          "location_id": 4946813,
+          "station_name": "DHBK",
+          "rows": 1517
+        },
+        {
+          "location_id": 6123215,
+          "station_name": "OceanPark",
+          "rows": 1517
+        }
+      ]
+    }
+  }
+}
